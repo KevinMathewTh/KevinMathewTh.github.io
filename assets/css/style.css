@@ -11,7 +11,9 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  overflow-x: hidden;
 }
+
 
 a {
   color: #5c9f24;
@@ -1764,7 +1766,13 @@ box-shadow: -5px 10px 39px 0px rgba(106,184,42,1);
   .timeline > li.timeline-inverted > .timeline-panel{
     margin-left:12%;
   }
-  .timeline-container
+  .timeline-container{
+    margin-left:0%;
+  }
+
+  .timeline > li > .timeline-panel{
+    width:80%;
+  }
  /* ul.timeline:before {
       left: 40px;
   }
